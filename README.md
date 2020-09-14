@@ -46,6 +46,7 @@ Programming assignments will use the following pieces of sotfware:
 * [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - a LR(1) parser generator for the OCaml programming language.
 * [Clang](https://clang.llvm.org/) - a compiler for C programs.
 * [LLVM](http://llvm.org/) - The LLVM compiler infrastructure. All the code shown during the course is tested with **the version 10.0**.
+* [rlwrap](https://github.com/hanslub42/rlwrap) - a small utility to improve the editing capability of the OCaml REPL.
 
 ### Online Resources
 * OCaml [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html)
