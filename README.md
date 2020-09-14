@@ -29,6 +29,8 @@ After completing the course, students will have
 ## Lectures
 This table specifies the lecture schedule with topics and materials.
 
+See [these instructions](instructions.md) to set up your programming environment. 
+
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
 | 9/25  | ...    |  ...   | ....     | ....       |
