@@ -1,6 +1,10 @@
 # Languages, Compilers and Interpreters (Lab) - 3 CFU
 **Teacher**: Letterio Galletta
 
+**Contact**: *name.surname*(at)imtlucca.it
+
+**Office hours**: contact me by e-mail
+
 **Page of theory part of the course held by Prof. Roberta Gori**: http://pages.di.unipi.it/gori/Linguaggi-Compilatori2020/
 
 ## Course description
