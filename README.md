@@ -12,17 +12,17 @@ subset of language C, called *MicroC*, and of an interpreter of a small function
 ## Learning objectives
 
 After completing the course, students will have  
-* Known the basics of the functional programming language OCaml
-* Implemented parsers using state-of-the-art parsers generators 
-* Designed and implemented semantic analyses for a functional and an imperative languages
-* Used the LLVM toolchain for generating and optimize code 
+* Known the basics of the functional programming language OCaml;
+* Implemented parsers using state-of-the-art parsers generators; 
+* Designed and implemented semantic analyses for a functional and an imperative languages;
+* Used the LLVM toolchain for generating and optimize code; 
 * Had some fun along the way! :smile: 
 
 ## Program of the course
 
 * Introduction to functional programming and to OCaml language;
 * Lexing and parsing using `ocamllex` and `menhir`;
-* Semantic analysis implementation: type checking and control-flow analysis;
+* Semantic analysis implementation: type checking, scope management, control-flow analysis;
 * Introduction to LLVM infrastructure and LLVM intermediate language;
 * Code generation.
 
