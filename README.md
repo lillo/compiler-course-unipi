@@ -1,7 +1,7 @@
 # Languages, Compilers and Interpreters (Lab) - 3 CFU
 **Teacher**: Letterio Galletta
 
-**Page of theory part held by Prof. Roberta Gori**: http://pages.di.unipi.it/gori/Linguaggi-Compilatori2020/
+**Page of theory part of the course held by Prof. Roberta Gori**: http://pages.di.unipi.it/gori/Linguaggi-Compilatori2020/
 
 ## Course description
 The course will present tools and techniques used in the implementation of programming languages. 
@@ -17,6 +17,14 @@ After completing the course, students will have
 * Designed and implemented semantic analyses for a functional and an imperative languages
 * Used the LLVM toolchain for generating and optimize code 
 * Had some fun along the way! :smile: 
+
+## Program of the course
+
+* Introduction to functional programming and to OCaml language;
+* Lexing and parsing using `ocamllex` and `menhir`;
+* Semantic analysis implementation: type checking and control-flow analysis;
+* Introduction to LLVM infrastructure and LLVM intermediate language;
+* Code generation.
 
 ## Lectures
 This table specifies the lecture schedule with topics and materials.
