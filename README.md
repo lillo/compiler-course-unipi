@@ -6,7 +6,7 @@
 ## Course description
 The course will present tools and techniques used in the implementation of programming languages. 
 In particular, the course will guide students in the implementation of a compiler for a small 
-subset of language C, called *MicroC*, and of an interpreter of a small functional language, called *FUN*. During the lectures students will work on programming assignments covering different aspects of language implementation. The programming language adopted for the exercises and the project is OCaml. At the end of the course students who completed all the assignments will have developed an interpreter for the *FUN* language and a compiler for *MicroC*. 
+subset of language C, called *MicroC*, and of an interpreter of a small functional language, called *FUN*. During the lectures students will work on programming assignments covering different aspects of language implementation. The programming language adopted for the exercises and the project is OCaml. At the end of the course students who completed all the assignments will have developed an simple interpreter and a compiler. 
 
 
 ## Learning objectives
