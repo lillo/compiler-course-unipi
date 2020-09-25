@@ -37,7 +37,7 @@ See [these instructions](instructions.md) to set up your programming environment
 
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
-| 9/25  | Intro to OCaml: functions, string, lists,</br> tuples, a primer on pattern matching,</br> REPL, compilation |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/intro-ocaml.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
+| 9/25  | Intro to OCaml: functions, string, lists,</br> tuples, a primer on pattern matching,</br> REPL, compilation |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
 | 10/2 | ...     | ...    | ...       | ...           
 
 
