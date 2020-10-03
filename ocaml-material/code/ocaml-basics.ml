@@ -52,12 +52,12 @@ let modinv a m =
     if a = 0 then
       (b, 0, 1)
     else
-      let (g, x, y) = egcd b (a mod b) in
+      let (g, x, y) = egcd (b mod a) a in
       (g, y - (b/a) * x, x)
   in
   match egcd a m with
-  | (1, _, _) -> None
-  | (_, x, _) -> Some (x mod m)
+  | (1, x, _) -> Some (((x mod m) + m) mod m)  (* take care of negative results *)
+  | _ -> None
 
 (* Definition of functions over lists and strings *)
 
