@@ -39,7 +39,8 @@ See [these instructions](instructions.md) to set up your programming environment
 | ------|------- | -------|----------|------------|
 | 9/25  | Intro to OCaml: functions, string</br> REPL, compilation |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
 | 10/2 | Intro to OCaml: lists, tuples, records,</br> algebraic data types, pattern matching     | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)    | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)       | [Exercises 2](ocaml-material/exercises/exercises-2.md)
-| 10/9 | ... | ... | ... | .... |           
+| 10/9 | - Intro to OCaml: module, imperative features.</br> - The interpreter of *FUN* | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br> [The interpreter of FUN](ocaml-material/slides/fun-interpreter.pdf) | [vector.mli](ocaml-material/code/vector.mli)</br>[vector.ml](ocaml-material/code/vector.ml)</br> [fun.ml](ocaml-material/code/fun.ml) | [Exercises 3](ocaml-material/exercises/exercises-3.md) |         
+| 10/16 | ... | ... | ... | ... |  
 
 
 ## Material
