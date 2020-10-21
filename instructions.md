@@ -15,9 +15,7 @@ configuration use the command
 opam-user-setup status
 ```
 
-If you want to use `vscode` as OCaml editor, install the [OCaml and Reason
-IDE](https://marketplace.visualstudio.com/items?itemName=freebroccolo.reasonml&ssr=false#qna)
-extension from the market.
+If you want to use `vscode` as OCaml editor, install the [OCaml OCaml Platform](https://marketplace.visualstudio.com/items?itemName=ocamllabs.ocaml-platform) extension from the market.
 
 ## Project templates
 
