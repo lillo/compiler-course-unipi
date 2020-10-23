@@ -41,7 +41,8 @@ See [these instructions](instructions.md) to set up your programming environment
 | 10/2 | Intro to OCaml: lists, tuples, records,</br> algebraic data types, pattern matching     | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)    | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)       | [Exercises 2](ocaml-material/exercises/exercises-2.md)
 | 10/9 | - Intro to OCaml: module, imperative features.</br> - The interpreter of *FUN* | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br> [The interpreter of FUN](ocaml-material/slides/fun-interpreter.pdf) | [vector.mli](ocaml-material/code/vector.mli)</br>[vector.ml](ocaml-material/code/vector.ml)</br> [fun.ml](ocaml-material/code/fun.ml) | [Exercises 3](ocaml-material/exercises/exercises-3.md) |         
 | 10/15 | - Discussion on previous programming assignments </br> - Introduction to lexing with `ocamllex` | [Lexing with ocamllex](frontend-material/slides/lexical-analysis.pdf) | - | - |
-| 10/23 | ... | ... | ... |  
+| 10/23 | Tutorial on `ocamllex` | [Lexing with ocamllex](frontend-material/slides/lexical-analysis.pdf) | [cwd.mll](frontend-material/code/cwd.mll) </br> [count.mll](frontend-material/code/count.mll) </br> [count_fun.mll](frontend-material/code/count_fun.mll) </br> [stokens.mll](frontend-material/code/stokens.mll) </br> [stokens_pos.mll](frontend-material/code/stokens_pos.mll) </br> [comments.mll](frontend-material/code/comments.mll) </br> [csv_simple.mll](frontend-material/code/csv_simple.mll) </br> [toy_lang.mll](frontend-material/code/toy_lang.mll) | [Exercises 4](frontend-material/exercises/exercises-lexing.md) 
+| 10/30 | ... | ... | ... |  
 
 
 ## Material
