@@ -45,7 +45,7 @@ comment-density.
 
 ## Exercise 4
 
-Modify the scanner for the toy language presented during the class (file [toy_lang.mll](code/toy_lang.mll))
+Modify the scanner for the toy language presented during the class (file [toy_lang.mll](../code/toy_lang.mll))
 in such a way it prints for each occurrence of an identifer, its position in the file.
 
 ## Exercise 5
