@@ -15,7 +15,11 @@ configuration use the command
 opam-user-setup status
 ```
 
-If you want to use `vscode` as OCaml editor, install the [OCaml OCaml Platform](https://marketplace.visualstudio.com/items?itemName=ocamllabs.ocaml-platform) extension from the market.
+If you want to use `vscode` as OCaml editor, install the [OCaml OCaml Platform](https://marketplace.visualstudio.com/items?itemName=ocamllabs.ocaml-platform) extension from the market. 
+Remember to install LSP server for OCaml using
+```sh
+$ opam install ocaml-lsp-server
+```
 
 ## Project templates
 
@@ -36,4 +40,17 @@ $ git clone https://github.com/mjambon/dune-starter
 $ cp -a dune-starter/proj my-project
 $ cd my-project
 $ git init
+```
+
+Here are also some tools that can generate a project structure for you. 
+- [oskel](https://github.com/CraigFe/oskel) is a skeleton generator for OCaml that provides templates for libraries and binary. The generated projects use `dune` as build system.  
+- [spin](https://github.com/tmattio/spin) is a Reasonml and OCaml project generator. It provides templates for many kinds of projects. The generated projects use `dune` as build system and can use `esy` as package manager. 
+
+Both tools can be install via `opam`:
+```sh
+$ opam install oskel
+```
+or 
+```sh
+$ opam install spin
 ```
