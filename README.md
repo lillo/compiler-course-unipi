@@ -60,11 +60,14 @@ Programming assignments will use the following pieces of sotfware:
 * OCaml [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html)
 * [OCaml Discourse](https://discuss.ocaml.org/) community
 * [OCamlverse](https://ocamlverse.github.io/)
-* [Jane Street Tech Blog](https://blog.janestreet.com/)
-* [Why OCaml](https://www.youtube.com/watch?v=v1CmGbOGb2I)
 * The book [Functional Programming in OCaml](https://www.cs.cornell.edu/courses/cs3110/2019sp/textbook/)
 * The book [Real World OCaml](https://dev.realworldocaml.org/)
 * The book [OCaml Scientific Computing](https://ocaml.xyz/book/)
 * [OCaml MOOC](https://www.youtube.com/playlist?list=PLALAWXhLW3667sFw1Lfo3LmHC7CFib2EN)
 * An [interactive tutorial](https://learngitbranching.js.org/) on using `git`
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
+
+### Further resources
+
+[Here](references.md) you find a list of further references that complete and deepen the various topics covered during the course.
+A rich collection of articles related to the course can be found in [Prof. Matt Might's blog](http://matt.might.net/articles/).
