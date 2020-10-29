@@ -1,0 +1,1 @@
+This example is inspired at the Chapter 18 of "Real World OCaml".
