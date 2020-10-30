@@ -13,10 +13,10 @@ let dquote = '"'
 let ddquote = "\"\""
 
 rule csv_parser = parse
-  | newline      { Printf.printf "\n===NEW RECORD===\n"; incr row; col := 1 }
+  | newline     { Printf.printf "\n===NEW RECORD===\n"; incr row; col := 1 }
   | comma       { print_newline (); incr col }
   | textdata*   { Printf.printf "t-row %d col %d: >%s<" !row !col (Lexing.lexeme lexbuf) }
-  | dquote      {  Printf.printf "d-row %d col %d: >" !row !col; escaped lexbuf }
+  | dquote      { Printf.printf "d-row %d col %d: >" !row !col; escaped lexbuf }
   | eof         { Printf.printf "\n=== DONE ===\n"; exit 0 }
   | _ as c      { Printf.printf "\nSyntax error: %d\n" ( int_of_char c )}
 and escaped = parse
