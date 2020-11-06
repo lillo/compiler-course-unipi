@@ -1,7 +1,7 @@
 # References
 
 Here is a list of suggested references (talks, books, scientific papers, articles, blog posts) which complete various topics covered during the classes.
-At the moment they are only classified according to the topics new considered during the class and they can be considered as starting points to learn new advanced topics.
+At the moment they are only classified according to the topics we considered during the classes and they can be considered as starting points to learn new advanced topics.
 
 If you find further interesting references, please, consider to send me a PR.
 
@@ -41,7 +41,40 @@ Neumann Style? A Functional Style and Its Algebra of Programs](https://www.thocp
 - Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, Shriram Krishnamurthi. [How to design program](https://htdp.org/), 2020.
 
 ## Parsing
-...
+
+- Guido van Rossum. [PEG Parsing Series](https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60), 2019.
+  [Video](https://www.youtube.com/watch?v=QppWTvh7_sI) from North Bay Python 2019.
+
+- Bryan Ford. [Parsing expression grammars: a recognition-based syntactic foundation](https://pdos.csail.mit.edu/papers/parsing:popl04.pdf), POPL 2004.
+
+- Bryan Ford. [Packrat Parsing: Simple, Powerful, Lazy, Linear Time](https://bford.info/pub/lang/packrat-icfp02.pdf), ICFP 2002. 
+
+- Aleksey Kladov. [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html), 2020.
+
+- Laurence Tratt. [Parsing: the solved problem that isn't](https://tratt.net/laurie/blog/entries/parsing_the_solved_problem_that_isnt.html), 2011.
+
+- Laurence Tratt. [Which Parsing Approach?](https://tratt.net/laurie/blog/entries/which_parsing_approach.html), 2020.
+
+- Aleksey Kladov. [Challenging LR Parsing](https://rust-analyzer.github.io/blog/2020/09/16/challeging-LR-parsing.html), 2020.
+
+- Scott Wlaschin. [Understanding parser combinators: a deep dive](https://www.youtube.com/watch?v=RDalzi7mhdY), 2016.
+
+- Matthew Might and David Darais. [Yacc is dead](https://arxiv.org/abs/1010.5023), 2010. [Here](http://matt.might.net/articles/parsing-with-derivatives/) is an update that completes and extends the paper. 
+
+- Matthew Might, David Darais and Daniel Spiewak. [Parsing with Derivatives (A functional pearl)](http://matt.might.net/papers/might2011derivatives.pdf), ICFP 2011.
+
+- Graham Hutton and Erik Meijer. [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf), Journal of Functional Programming, 1998.
+
+- Terence Parr and Kathleen Fisher. [LL(*): The Foundation of the ANTLR Parser Generator](https://www.antlr.org/papers/LL-star-PLDI11.pdf), PLDI 2011.
+
+- Terence Parr, Sam Harwell and Kathleen Fisher. [Adaptive LL(*) Parsing: The Power of Dynamic Analysis](https://www.antlr.org/papers/allstar-techreport.pdf), OOSPLA 2014.
+
+- Romain Edelmann, Jad  Hamza and Viktor Kunčak. [Zippy LL(1) parsing with derivatives](https://arxiv.org/pdf/1911.12737.pdf), PLDI 2020. [Here](https://www.youtube.com/watch?v=uUyyp6Lv4b8) is the talk presented at the conference.
+
+- Grzegorz Herman. [Faster general parsing through context-free memoization](https://dl.acm.org/doi/abs/10.1145/3385412.3386032), PLDI 2020. (you can access the paper from university network). [Here](https://www.youtube.com/watch?v=pqwT3eqrAJc) is the talk presented at the conference.
+
+- [Anders Hejlsberg on Modern Compiler Construction](https://www.youtube.com/watch?v=wSdV1M7n4gQ), 2017.
+
 
 ## Static Analysis
 ...
