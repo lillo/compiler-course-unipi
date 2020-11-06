@@ -74,6 +74,17 @@ As usual the operator `*` means zero or more occurrences, `+` means one or more 
 
     AExpr ::= INT | CHAR | BOOL | "NULL" | "(" RExpr ")" | "&" LExpr
 
+## Requirement to build the code
+The code requires:
+* OCaml >= 4.10.1
+* Menhir >= 20200624
+* ppx_deriving >= 4.5 
+
+You can install the required dependencies via `opam`
+```sh
+$ opam install menhir ppx_deriving
+```
+[Here](https://github.com/ocaml-ppx/ppx_deriving), you can the documentation of `ppx_deriving`.
 
 ## Building the code
 Typing `make` will generate a `microcc.native` executable:
