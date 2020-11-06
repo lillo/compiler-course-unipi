@@ -45,6 +45,9 @@ See [these instructions](instructions.md) to set up your programming environment
 | 10/30 | Tutorial on `menhir` | [Syntactic analysis with `menhir`](frontend-material/slides/syntactic-analysis.pdf) | [calc](frontend-material/code/calc) </br> [calc-alias](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-alias) </br> [calc-ast](frontend-material/code/calc-ast) </br> [calc-ast-pos](frontend-material/code/calc-ast-pos) </br> [calc-two](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-two) </br> [calc-multi](frontend-material/code/calc-multi) </br> [calc-incremental](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-incremental) </br> [json](frontend-material/code/json)  | [Exercise 5](frontend-material/exercises/exercises-parsing.md)|  
 | ... | ... | ... | ... | ... |
 
+## Final project
+The final project of the course consists in implementing a compiler for MicroC. 
+See [here](microc/microc-project.md) for the instructions.
 
 ## Material
 
