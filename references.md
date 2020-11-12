@@ -75,6 +75,8 @@ Neumann Style? A Functional Style and Its Algebra of Programs](https://www.thocp
 
 - [Anders Hejlsberg on Modern Compiler Construction](https://www.youtube.com/watch?v=wSdV1M7n4gQ), 2017.
 
+- Enrico Zandomeni Borba. [A White-space sensitive lexer](https://ezb.io/thoughts/programming/myth_lang/myth_lang_2.html), 2020.
+
 
 ## Static Analysis
 ...
