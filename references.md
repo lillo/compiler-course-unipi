@@ -79,9 +79,20 @@ Neumann Style? A Functional Style and Its Algebra of Programs](https://www.thocp
 
 
 ## Static Analysis
-...
 
-## Compilation
+- Luca Cardelli. [Type systems](http://lucacardelli.name/Papers/TypeSystems.pdf), 1997.
+
+- Jens Palsberg. [Type-Based Analysis and Applications](http://web.cs.ucla.edu/~palsberg/tba/papers/palsberg-paste01.pdf), 2001.
+
+- Flemming Nielson and Hanne Riis Nielson. [Type and Effect Systems](http://www.imm.dtu.dk/~fnie/Papers/NiNi99tes.pdf), 1999.
+
+- Benjamin C. Pierce. [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/), 2002.
+
+- Benjamin C. Pierce (Editor). [Advanced Topics in Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/attapl/index.html), 2004.
+
+- Anders Møller and Michael I. Schwartzbach. [Static Program Analysis](https://cs.au.dk/~amoeller/spa/), 2020.
+
+## PL
 ...
 
 ## PL & Security

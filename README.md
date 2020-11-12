@@ -43,8 +43,9 @@ See [these instructions](instructions.md) to set up your programming environment
 | 10/15 | - Discussion on previous programming assignments </br> - Introduction to lexing with `ocamllex` | [Lexing with ocamllex](frontend-material/slides/lexical-analysis.pdf) | - | - |
 | 10/23 | Tutorial on `ocamllex` | [Lexing with ocamllex](frontend-material/slides/lexical-analysis.pdf) | [cwd.mll](frontend-material/code/cwd.mll) </br> [count.mll](frontend-material/code/count.mll) </br> [count_fun.mll](frontend-material/code/count_fun.mll) </br> [stokens.mll](frontend-material/code/stokens.mll) </br> [stokens_pos.mll](frontend-material/code/stokens_pos.mll) </br> [comments.mll](frontend-material/code/comments.mll) </br> [csv_simple.mll](frontend-material/code/csv_simple.mll) </br> [toy_lang.mll](frontend-material/code/toy_lang.mll) | [Exercises 4](frontend-material/exercises/exercises-lexing.md) 
 | 10/30 | Tutorial on `menhir` | [Syntactic analysis with `menhir`](frontend-material/slides/syntactic-analysis.pdf) | [calc](frontend-material/code/calc) </br> [calc-alias](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-alias) </br> [calc-ast](frontend-material/code/calc-ast) </br> [calc-ast-pos](frontend-material/code/calc-ast-pos) </br> [calc-two](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-two) </br> [calc-multi](frontend-material/code/calc-multi) </br> [calc-incremental](https://gitlab.inria.fr/fpottier/menhir/-/tree/master/demos/calc-incremental) </br> [json](frontend-material/code/json)  | [Exercise 5](frontend-material/exercises/exercises-parsing.md)|  
-| 11/06 | - Parsing with `menhir`</br> - Discussion on previous programming assignments</br> - Presentation of MicroC project | - [Syntactic analysis with `menhir`](frontend-material/slides/syntactic-analysis.pdf)</br> - [Introduction to MicroC](frontend-material/slides/intro-microc.pdf) | [FUN parser](frontend-material/code/fun-parser) solutions of exercises 4.5 & 5.4</br> [IoT-Lysa parser](https://bitbucket.org/lillo/iotlysa/src/master/) for an example of parser using [FParsec](https://www.quanttec.com/fparsec/) | [MicroC parser](microc/microc-parsing/) |
-| ... | ... | ... | ... | ... |
+| 11/06 | - Parsing with `menhir`</br> - Discussion on previous programming assignments</br> - Presentation of MicroC project | [Syntactic analysis with `menhir`](frontend-material/slides/syntactic-analysis.pdf)</br> [Introduction to MicroC](frontend-material/slides/intro-microc.pdf) | [FUN parser](frontend-material/code/fun-parser) solutions of exercises 4.5 & 5.4</br>  [IoT-Lysa parser](https://bitbucket.org/lillo/iotlysa/src/master/) for an example of parser using [FParsec](https://www.quanttec.com/fparsec/) | [MicroC parser](microc/microc-parsing/) |
+| 11/13 | Type analysis | [Type analysis](semantic-analysis-material/slides/type-analysis.pdf) | [FUN type checker](semantic-analysis-material/code/fun-types) </br>  [Incremental MinCaml](https://github.com/matteobusi/incremental-mincaml) </br> [CADL](https://github.com/freek9807/CADL) | [Exercises 6](semantic-analysis-material/exercises/exercises-types.md) |
+| 11/20 | ... | ... | ... |  ... |
 
 ## Final project
 The final project of the course consists in implementing a compiler for MicroC. 
@@ -71,6 +72,7 @@ Programming assignments will use the following pieces of sotfware:
 * [OCaml MOOC](https://www.youtube.com/playlist?list=PLALAWXhLW3667sFw1Lfo3LmHC7CFib2EN)
 * An [interactive tutorial](https://learngitbranching.js.org/) on using `git`
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
+* [The Programming Languages Zoo - A potpourri of programming languages](http://plzoo.andrej.com/)
 
 ### Further resources
 
