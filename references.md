@@ -92,6 +92,29 @@ Neumann Style? A Functional Style and Its Algebra of Programs](https://www.thocp
 
 - Anders Møller and Michael I. Schwartzbach. [Static Program Analysis](https://cs.au.dk/~amoeller/spa/), 2020.
 
+- Hanne Riis Nielson, Flemming Nielson, Henrik Pilegaard. Flow Logic for Process Calculi. ACM Comput. Surv., 2012.
+
+- Chiara Bodei, Pierpaolo Degano, Flemming Nielson and Hanne Riis Nielson. [Control Flow Analysis for the pi-calculus](https://www.di.unipi.it/~chiara/publ-40/CONCUR98.ps). CONCUR, 1998.
+
+- David Van Horn and Matthew Might. [Abstract Abstract Machines](http://matt.might.net/papers/vanhorn2010abstract.pdf). IFCP, 2010.
+
+- Matthew Might, Yannis Smaragdakis and David Van Horn. [Resolving and Exploiting the k-CFA Paradox](http://matt.might.net/papers/might2010mcfa.pdf), PLDI, 2010.
+
+- Ilya Sergey, Dominique Devriese, Matthew Might, Jan Midtgaard, David Darais, Dave Clarke and Frank Piessens. [Monadic abstract interpreters](https://dl.acm.org/doi/pdf/10.1145/2491956.2491979), PLDI, 2013.
+
+- Sam Blackshear, Nikos Gorogiannis, Peter W. O'Hearn, Ilya Sergey. [RacerD: Compositional Static Race Detection](https://dl.acm.org/doi/pdf/10.1145/3276514), OOPLA, 2018.
+
+- Neville Grech, Michael Kong, Anton Jurisevic, Lexi Brent, Bernhard Scholz and Yannis Smaragdakis. [MadMax: Analyzing the Out-of-Gas World of Smart Contracts](https://cacm.acm.org/magazines/2020/10/247600-madmax/fulltext), Commun. of ACM, 2020. 
+
+- Yue Li, Tian Tan, Anders Møller, Yannis Smaragdakis. [A Principled Approach to Selective Context Sensitivity for Pointer Analysis](https://yanniss.github.io/toplas20-zipper.pdf), ACM TOPLAS, 2020.
+
+- Simon Holm Jensen, Anders Møller, Peter Thiemann. [Type Analysis for JavaScript](https://cs.au.dk/~amoeller/papers/tajs/paper.pdf), SAS, 2009.
+
+- Cristiano Calcagno, Dino Distefano, Peter W. O'Hearn, Hongseok Yang. [Compositional shape analysis by means of bi-abduction](http://www0.cs.ucl.ac.uk/staff/p.ohearn/papers/popl09.pdf), POPL, 2009.
+
+- Dino  Distefano, Manuel Alfred Fahndrich, Francesco  Logozzo, Peter W O’Hearn. [Scaling static analyses at Facebook](https://dl.acm.org/doi/pdf/10.1145/3338112), Commun. of ACM, 2019.
+
+
 ## PL
 ...
 
