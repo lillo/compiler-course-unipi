@@ -51,7 +51,7 @@ The project is split in the following assignments:
 
 * **Parsing**: this assignment asks students to implement a parser for MicroC. The material is available [here](microc-parsing/); 
 
-* **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for check that a given program obeys the scoping rule and the type system of the language. The material is available [here](microc/microc-semantic-analysis);
+* **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for check that a given program obeys the scoping rule and the type system of the language. The material is available [here](microc-semantic-analysis/);
 
 * **Code generation**: this assignment asks to use the LLVM toolchain to compile a MicroC program to low level code (LLVML bitcode) and to perform some simple optimizations;
 
