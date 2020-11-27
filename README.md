@@ -46,7 +46,7 @@ See [these instructions](instructions.md) to set up your programming environment
 | 11/06 | - Parsing with `menhir`</br> - Discussion on previous programming assignments</br> - Presentation of MicroC project | [Syntactic analysis with `menhir`](frontend-material/slides/syntactic-analysis.pdf)</br> [Introduction to MicroC](frontend-material/slides/intro-microc.pdf) | [FUN parser](frontend-material/code/fun-parser) solutions of exercises 4.5 & 5.4</br>  [IoT-Lysa parser](https://bitbucket.org/lillo/iotlysa/src/master/) for an example of parser using [FParsec](https://www.quanttec.com/fparsec/) | [MicroC parser](microc/microc-parsing/) |
 | 11/13 | Type analysis | [Type analysis](semantic-analysis-material/slides/type-analysis.pdf) | [FUN type checker](semantic-analysis-material/code/fun-types) </br>  [Incremental MinCaml](https://github.com/matteobusi/incremental-mincaml) </br> [CADL](https://github.com/freek9807/CADL) | [Exercises 6](semantic-analysis-material/exercises/exercises-types.md) |
 | 11/20 | Control-flow analysis | [CFA analysis](semantic-analysis-material/slides/cfa-analysis.pdf) | [FUN CFA analysis](semantic-analysis-material/code/fun-cfa) |  [Exercises 7](semantic-analysis-material/exercises/exercises-cfa.md) |
-| 11/27 | ... | ... | ... |  ... |
+| 11/27 | Semantic analysis for MicroC |[Semantic analysis for MicroC](semantic-analysis-material/slides/microc-semantic-analysis.pdf)  | - |  [MicroC analyzer](microc/microc-semantic-analysis) |
 
 ## Final project
 The final project of the course consists in implementing a compiler for MicroC. 
@@ -74,6 +74,7 @@ Programming assignments will use the following pieces of sotfware:
 * An [interactive tutorial](https://learngitbranching.js.org/) on using `git`
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 * [The Programming Languages Zoo - A potpourri of programming languages](http://plzoo.andrej.com/)
+* [Compiler Explorer](https://godbolt.org/)
 
 ### Further resources
 
