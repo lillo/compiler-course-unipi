@@ -47,6 +47,8 @@ See [these instructions](instructions.md) to set up your programming environment
 | 11/13 | Type analysis | [Type analysis](semantic-analysis-material/slides/type-analysis.pdf) | [FUN type checker](semantic-analysis-material/code/fun-types) </br>  [Incremental MinCaml](https://github.com/matteobusi/incremental-mincaml) </br> [CADL](https://github.com/freek9807/CADL) | [Exercises 6](semantic-analysis-material/exercises/exercises-types.md) |
 | 11/20 | Control-flow analysis | [CFA analysis](semantic-analysis-material/slides/cfa-analysis.pdf) | [FUN CFA analysis](semantic-analysis-material/code/fun-cfa) |  [Exercises 7](semantic-analysis-material/exercises/exercises-cfa.md) |
 | 11/27 | Semantic analysis for MicroC |[Semantic analysis for MicroC](semantic-analysis-material/slides/microc-semantic-analysis.pdf)  | - |  [MicroC analyzer](microc/microc-semantic-analysis) |
+| 12/04 | ... | ... | ... | ... |
+| 12/11 | ... | ... | ... | ... |
 
 ## Final project
 The final project of the course consists in implementing a compiler for MicroC. 

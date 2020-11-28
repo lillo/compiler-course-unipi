@@ -114,12 +114,44 @@ Neumann Style? A Functional Style and Its Algebra of Programs](https://www.thocp
 
 - Dino  Distefano, Manuel Alfred Fahndrich, Francesco  Logozzo, Peter W O’Hearn. [Scaling static analyses at Facebook](https://dl.acm.org/doi/pdf/10.1145/3338112), Commun. of ACM, 2019.
 
+- Michael Hicks. [What is soundness (in static analysis)?](http://www.pl-enthusiast.net/2017/10/23/what-is-soundness-in-static-analysis/), 2017. 
 
-## PL
-...
-
-## PL & Security
-...
+- Michael Hicks. [What is type safety?](http://www.pl-enthusiast.net/2014/08/05/type-safety/), 2014.
 
 ## PL Research
-...
+
+- Daniel Patterson and Amal Ahmed. [The Next 700 Compiler Correctness Theorems](http://www.ccs.neu.edu/home/amal/papers/next700ccc.pdf), ICFP 2019.
+
+- Amal Ahmed. [Verified Compilers for a Multi-Language World](http://www.ccs.neu.edu/home/amal/papers/verifcomp.pdf),  SNAPL: Summit on Advances in Programming Languages, 2015.
+
+- Michael Hicks. [What is PL research and how is it useful?](http://www.pl-enthusiast.net/2015/05/27/what-is-pl-research-and-how-is-it-useful/), 2015.
+
+- Swarat Chaudhuri.[AI Safety as a PL problem](https://blog.sigplan.org/2019/06/24/ai-safety-as-a-pl-problem/), 2019.
+
+
+
+## PL & Security
+
+- Geoffrey Smith. [Principles of Secure Information Flow Analysis](https://users.cs.fiu.edu/~smithg/papers/sif06.pdf), 2007. 
+
+- Andrei Sabelfeld and Andrew C. Myers. [Language-Based Information-Flow Security](https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf), 2003.
+
+- Musard Balliu and Andrei Sabelfeld. [Securing IoT Apps](https://www.cse.chalmers.se/~andrei/sp19.pdf), 2019.
+
+- Marco Patrignani, Amal Ahmed and Dave Clarke. [Formal Approaches to Secure Compilation](https://theory.stanford.edu/~mp/mp/Publications_files/main-full.pdf), ACM Comput. Surv. 51(6):125, 2019
+
+- Michael Hicks. [Software Security is a Programming Languages Issue](http://www.pl-enthusiast.net/2018/08/13/security-programming-languages-issue/), 2018.
+
+- Michael Hicks. [Software Security Ideas Ahead of Their Time](http://www.pl-enthusiast.net/2016/02/01/software-security-ideas-ahead-of-their-time/), 2016.
+
+- Michael Hicks. [What is noninterference, and how do we enforce it?](http://www.pl-enthusiast.net/2015/03/03/noninterference/), 2015.
+
+- Michael Hicks. [What is memory safety?](http://www.pl-enthusiast.net/2014/07/21/memory-safety/), 2014.
+
+- Michael Hicks. [Securing computation](http://www.pl-enthusiast.net/2014/06/06/securing-computation/), 2014.
+
+- Michael Hicks. [Formal Reasoning in PL and Crypto](http://www.pl-enthusiast.net/2014/12/23/formal-reasoning-pl-crypto/), 2014.
+
+- Matteo Busi and Letterio Galletta. [A Brief Tour of Formally Secure Compilation](http://ceur-ws.org/Vol-2315/paper03.pdf). ITASEC, 2019.
+
+- Gabriele Costa, Pierpaolo Degano, Letterio Galletta. [Sicurezza del software: l’approccio linguistico](http://mondodigitale.aicanet.net/2019-7/Articoli/MD86_01_Sicurezza_del_software.pdf), Mondo digitale, 2019.
