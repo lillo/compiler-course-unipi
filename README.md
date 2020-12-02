@@ -77,6 +77,7 @@ Programming assignments will use the following pieces of sotfware:
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 * [The Programming Languages Zoo - A potpourri of programming languages](http://plzoo.andrej.com/)
 * [Compiler Explorer](https://godbolt.org/)
+* [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
 
 ### Further resources
 
