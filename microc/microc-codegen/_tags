@@ -1,0 +1,2 @@
+<src/**>: include, package(menhirLib), package(ppx_deriving.std), package(llvm), package(llvm.analysis), package(llvm.bitwriter), package(llvm.scalar_opts)
+true: use_menhir, explain, table

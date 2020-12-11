@@ -53,9 +53,17 @@ The project is split in the following assignments:
 
 * **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for check that a given program obeys the scoping rule and the type system of the language. The material is available [here](microc-semantic-analysis/);
 
-* **Code generation**: this assignment asks to use the LLVM toolchain to compile a MicroC program to low level code (LLVML bitcode) and to perform some simple optimizations;
+* **Code generation**: this assignment asks to use the LLVM toolchain to compile a MicroC program to low level code (LLVM bitcode) and to perform some simple optimizations. The material is available [here](microc-codegen/); 
 
-* **Language extensions**: there will be different possibilities for this assignment from which students can choose; the different possibilities will be discussed at the end of the course.
+* **Language extensions**: this assignment asks to extend the MicroC language by considering further constructs. In particular, students are required to implement **at least four** of the following constructs: 
+    * `do-while` loops;
+    * pre/post increment/decrement operators, i.e., `++` and `--`;
+    * abbreviation for assignment operators, i.e., `+=`, `-=`, `*=`, `/=` and `%=`;
+    * variable declaration with initialization, e.g., `int i = 0`;
+    * multi-dimensional arrays;
+    * floating point arithmetic;
+    * strings as in C, i.e. null-terminated arrays of characters;
+    * structs. 
 
 To take the exam students must submit their solution, i.e., their OCaml code, the documentation of the code, and a report describing the design and the implementation choices adopted.  
 
