@@ -75,6 +75,7 @@ Programming assignments will use the following pieces of sotfware:
 * [OCaml MOOC](https://www.youtube.com/playlist?list=PLALAWXhLW3667sFw1Lfo3LmHC7CFib2EN)
 * An [interactive tutorial](https://learngitbranching.js.org/) on using `git`
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
+* [LLVM OCaml Binding Documentation](https://llvm.moe/ocaml/)
 * [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](https://llvm.org/docs/tutorial/)
 * [The Programming Languages Zoo - A potpourri of programming languages](http://plzoo.andrej.com/)
 * [Compiler Explorer](https://godbolt.org/)
