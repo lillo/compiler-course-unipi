@@ -2,15 +2,7 @@
 // Code adapted from https://www.geeksforgeeks.org/array-rotation/
 /* Function to left Rotate arr[] of size n by 1*/
 
-  
-/*Function to left rotate arr[] of size n by d*/
-void leftRotate(int arr[], int d, int n) 
-{ 
-    int i; 
-    for (i = 0; i < d; i = i + 1) 
-        leftRotatebyOne(arr, n); 
-} 
-  
+
 void leftRotatebyOne(int arr[], int n) 
 { 
     int temp;
@@ -21,7 +13,16 @@ void leftRotatebyOne(int arr[], int n)
         arr[i] = arr[i + 1]; 
     
     arr[i] = temp; 
+}
+
+/*Function to left rotate arr[] of size n by d*/
+void leftRotate(int arr[], int d, int n) 
+{ 
+    int i; 
+    for (i = 0; i < d; i = i + 1) 
+        leftRotatebyOne(arr, n); 
 } 
+  
   
 /* utility function to print an array */
 void printArray(int arr[], int n) 
