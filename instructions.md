@@ -2,7 +2,7 @@
 
 To install and set up the OCaml compilers and REPL following the instructions on the [OCaml website](https://ocaml.org/docs/install.html).
 
-To set up `opam` and to use other tools, you can also read [this tutorial](https://ocaml.org/learn/tutorials/get_up_and_running.html).
+To set up `opam` and to use other tools, you can also read [this tutorial](https://ocaml.org/learn/tutorials/up_and_running.html).
 
 ## Set up an editor
 If you want to use `emacs` or `vim`  as OCaml editor, install the package `user-setup` via `opam`

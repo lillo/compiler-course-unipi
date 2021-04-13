@@ -59,8 +59,8 @@ As usual the operator `*` means zero or more occurrences, `+` means one or more 
     
     Typ ::= "int" | "char" | "void" | "bool" 
     
-    Stmt ::= "return" Expr ";" | Expr ";" | Block | "while" "(" Expr ")" Block 
-        |    "for" "(" Expr? ";" Expr? ";" Expr? ")" Block
+    Stmt ::= "return" Expr ";" | Expr ";" | Block | "while" "(" Expr ")" Stmt 
+        |    "for" "(" Expr? ";" Expr? ";" Expr? ")" Stmt
         |    "if" "(" Expr ")" Stmt "else" Stmt  | "if" "(" Expr ")" Stmt
 
     Expr ::= RExpr | LExpr
