@@ -38,9 +38,9 @@ $ cd my-project
 $ git init
 ```
 
-There are also some tools that can generate a project structure for you.   
+Here are also some tools that can generate a project structure for you:   
 - [spin](https://github.com/tmattio/spin) is a Reasonml and OCaml project generator. It provides templates for many kinds of projects. 
 - [drom](https://ocamlpro.github.io/drom/)  is a wrapper over `opam/dune` in an attempt to provide a `cargo`-like user experience. 
 - [oskel](https://github.com/CraigFe/oskel) is a skeleton generator for OCaml that provides templates for libraries and binary. 
 
-These tools tools can be install via `opam`.
+They can be install via `opam`.
