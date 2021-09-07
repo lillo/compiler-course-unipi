@@ -1,2 +1,0 @@
-<src/**>: include, package(menhirLib), package(ppx_deriving.std)
-true: use_menhir

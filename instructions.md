@@ -2,7 +2,7 @@
 
 To install and set up the OCaml compilers and REPL following the instructions on the [OCaml website](https://ocaml.org/docs/install.html).
 
-To set up `opam` and to use other tools, you can also read [this tutorial](https://ocaml.org/learn/tutorials/up_and_running.html).
+To set up `opam` and to use other tools, you can also read [this tutorial](https://ocaml.org/learn/tutorials/up_and_running.html) or [this chapter](https://cs3110.github.io/textbook/chapters/preface/install.html) from OCaml Programming.
 
 ## Set up an editor
 If you want to use `emacs` or `vim`  as OCaml editor, install the package `user-setup` via `opam`
@@ -21,20 +21,16 @@ Remember to install LSP server for OCaml using
 $ opam install ocaml-lsp-server
 ```
 
-## Project templates
+## Create our OCaml Project
 
-Here are some templates you can use to start setting your code. 
+For simple programs you can directly [load](https://ocaml.org/learn/tutorials/a_first_hour_with_ocaml.html#Running-OCaml-programs) our code in the OCaml toplevel or [compile](https://ocaml.org/learn/tutorials/a_first_hour_with_ocaml.html#Compiling-OCaml-programs) it using the compiler. For simple projects you can also use `ocamlbuild`.
 
-If you want to use `ocamlbuild` for building your code you can use the project template at https://github.com/kmicinski/example-ocaml-merlin as scaffolding:
-```sh
-$ git clone https://github.com/kmicinski/example-ocaml-merlin.git
-$ mv example-ocaml-merlin my-project
-$ cd my-project
-$ rm -rf .git               # delete the current repo
-$ git init                  # set a new repo
-```
+For larger projects it is convenient using a build system.
+The most popular modern system for building OCaml is [dune](https://dune.build/) that can be installed via `opam`.
 
-If you want to use `dune` for building your code you can use the template at https://github.com/mjambon/dune-starter :
+See [here](https://ocaml.org/learn/tutorials/up_and_running.html#A-first-project) to see how create a simple project using dune. 
+
+You can also use the template at https://github.com/mjambon/dune-starter :
 ```sh
 $ git clone https://github.com/mjambon/dune-starter
 $ cp -a dune-starter/proj my-project
@@ -42,15 +38,9 @@ $ cd my-project
 $ git init
 ```
 
-Here are also some tools that can generate a project structure for you. 
-- [oskel](https://github.com/CraigFe/oskel) is a skeleton generator for OCaml that provides templates for libraries and binary. The generated projects use `dune` as build system.  
-- [spin](https://github.com/tmattio/spin) is a Reasonml and OCaml project generator. It provides templates for many kinds of projects. The generated projects use `dune` as build system and can use `esy` as package manager. 
+There are also some tools that can generate a project structure for you.   
+- [spin](https://github.com/tmattio/spin) is a Reasonml and OCaml project generator. It provides templates for many kinds of projects. 
+- [drom](https://ocamlpro.github.io/drom/)  is a wrapper over `opam/dune` in an attempt to provide a `cargo`-like user experience. 
+- [oskel](https://github.com/CraigFe/oskel) is a skeleton generator for OCaml that provides templates for libraries and binary. 
 
-Both tools can be install via `opam`:
-```sh
-$ opam install oskel
-```
-or 
-```sh
-$ opam install spin
-```
+These tools tools can be install via `opam`.
