@@ -59,8 +59,8 @@ Programming assignments will use the following pieces of sotfware:
 ### Online Resources
 * [OCaml API](https://ocaml.org/api/index.html)
 * OCaml [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html)
-* [OCaml Discourse](https://discuss.ocaml.org/) community
-* [OCamlverse](https://ocamlverse.github.io/)
+* [OCaml Discourse](https://discuss.ocaml.org/) the community forum
+* [OCamlverse](https://ocamlverse.github.io/) an attempt to documenting everything about OCaml
 * The book [OCaml Programming: Correct + Efficient + Beautiful](https://cs3110.github.io/textbook/cover.html)
 * The book [Real World OCaml](https://dev.realworldocaml.org/)
 * The book [OCaml Scientific Computing](https://ocaml.xyz/book/)
