@@ -47,7 +47,7 @@ See here for the instructions.
 ## Material
 
 ### Software
-Programming assignments will use the following pieces of sotfware:
+Programming assignments will use the following pieces of software:
 * [OCaml](https://ocaml.org/) - try to install the latest version. All the code shown during the course is tested with **the version 4.12.0**. 
 * [Opam](https://opam.ocaml.org/) - OCaml package manager.
 * [Menhir](http://gallium.inria.fr/~fpottier/menhir/) - a LR(1) parser generator for the OCaml programming language.
