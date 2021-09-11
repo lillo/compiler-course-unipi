@@ -57,6 +57,7 @@ Programming assignments will use the following pieces of sotfware:
 * [utop](https://github.com/ocaml-community/utop) - an improved toplevel (i.e., Read-Eval-Print Loop) for OCaml.
 
 ### Online Resources
+* [OCaml API](https://ocaml.org/api/index.html)
 * OCaml [user manual](http://caml.inria.fr/pub/docs/manual-ocaml/index.html)
 * [OCaml Discourse](https://discuss.ocaml.org/) community
 * [OCamlverse](https://ocamlverse.github.io/)
