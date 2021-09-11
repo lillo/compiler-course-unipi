@@ -5,7 +5,7 @@
 
 **Office hours**: contact me by e-mail
 
-**Page of theory part of the course held by Prof. Roberta Gori**: ...
+**Page of theory part of the course held by Prof. Roberta Gori**: http://pages.di.unipi.it/gori/Linguaggi-Compilatori2021/
 
 ## Course description
 The course will present tools and techniques used in the implementation of programming languages. 
@@ -38,7 +38,7 @@ See [these instructions](instructions.md) to set up your programming environment
 
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
-| ...   | ...    | ...    | ...      | ...        | 
+| 09/29 | ...    | ...    | ...      | ...        | 
 
 ## Final project
 The final project of the course consists in implementing a compiler for µcomp-lang. 
