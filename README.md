@@ -42,7 +42,7 @@ See [these instructions](instructions.md) to set up your programming environment
 
 ## Final project
 The final project of the course consists in implementing a compiler for µcomp-lang. 
-See here for the instructions.
+See [here](mcomp-lang/) for the instructions.
 
 ## Material
 
