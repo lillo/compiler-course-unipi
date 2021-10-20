@@ -40,6 +40,7 @@ See [these instructions](instructions.md) to set up your programming environment
 | ------|------- | -------|----------|------------|
 | 09/29 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       | 
 | 10/13 | Intro to OCaml: records, algebraic data types </br> module, imperative features  | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)    | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml) </br> [vector.mli](ocaml-material/code/vector.mli)</br>[vector.ml](ocaml-material/code/vector.ml)     | [Exercises 2](ocaml-material/exercises/exercises-2.md)
+| 10/20 | - The interpreter of *FUN* </br> - Discussion on previous programming assignments </br> - Introduction to lexing with `ocamllex` | [The interpreter of FUN](ocaml-material/slides/fun-interpreter.pdf) </br> [Lexing with ocamllex](frontend-material/slides/lexical-analysis.pdf)|  [fun.ml](ocaml-material/code/fun.ml) | [Exercises 3](ocaml-material/exercises/exercises-3.md) |
 | ...    | ...    | ...      | ...        | 
 
 ## Final project
