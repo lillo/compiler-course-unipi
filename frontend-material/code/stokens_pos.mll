@@ -27,7 +27,8 @@ let digit = ['0' - '9']
 let identifier = letter (letter | digit | '_')*
 
 rule token = parse
-  | [' ' '\n' '\t']          { token lexbuf } (* ignore whitespace *)
+  | '\n'                     { Lexing.new_line lexbuf; token lexbuf}
+  | [' ' '\t']               { token lexbuf } (* ignore whitespace *)
   | '+'                      { make_token PLUS lexbuf }       (* a symbol *)
   | "if"                     { make_token IF  lexbuf  }       (* a keyword *)
   | identifier as id         { make_token (ID(id)) lexbuf }   (* identifiers *)
@@ -36,6 +37,6 @@ rule token = parse
 
 {
 let () =
-  let lexbuf = Lexing.from_channel stdin in
+  let lexbuf = Lexing.from_channel ~with_positions:true stdin in
   iterate (fun () -> token lexbuf)
 }

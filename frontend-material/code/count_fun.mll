@@ -9,9 +9,11 @@ parse
 
 {
 
+let count = count 0 0 
+
 let () =
     let lexbuf = Lexing.from_channel stdin in
-    let (num_lines, num_chars) = count 0 0 lexbuf in
+    let (num_lines, num_chars) = count lexbuf in
     Printf.printf "# of lines = %d, # of chars = %d\n" num_lines num_chars
 
 }
