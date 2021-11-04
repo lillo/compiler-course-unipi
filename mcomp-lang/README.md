@@ -25,13 +25,13 @@ An high-level overview of the language is [here](OVERVIEW.md).
 
 ## Setup your development environment
 
-A description of the provided project kit is here.
+A description of the provided project kit is [here](SETUP.md).
 
 ## µcomp-lang assignments
 
 The project is split in the following assignments:
 
-* **Parsing**: this assignment asks students to implement a parser for µcomp-lang. The specification of the syntax is available here; 
+* **Parsing**: this assignment asks students to implement a parser for µcomp-lang. The specification of the syntax is available [here](mcomp-parsing/README.md); 
 
 * **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for checking that a given program obeys the scoping rules and the type system of the language. The description of the semantic rules are here;
 
