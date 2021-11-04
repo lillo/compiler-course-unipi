@@ -1,6 +1,5 @@
 (test
   (name parser_test)
-  ;(public_name parser_test)
   (libraries mcomp_lang)
   (modules parser_test)
   (preprocess
