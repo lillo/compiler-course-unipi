@@ -64,7 +64,7 @@ As usual in EBNF notation, the operator `*` means zero or more occurrences, `+` 
 
     VarSign ::= ID ":" Type
     
-    FunProto ::= "def" ID "("((VarSign ",")* VarSign)? ")" ":" BasicType? 
+    FunProto ::= "def" ID "("((VarSign ",")* VarSign)? ")" (":" BasicType)? 
 
     CMemberDecl ::= "var" VarSign ";"  | FunDecl
     
@@ -76,7 +76,7 @@ As usual in EBNF notation, the operator `*` means zero or more occurrences, `+` 
 
     BasicType ::= "int" | "char" | "void" | "bool"  
     
-    Stmt ::= "return" Expr ";" | Expr ";" | Block | "while" "(" Expr ")" Stmt 
+    Stmt ::= "return" Expr? ";" | Expr ";" | Block | "while" "(" Expr ")" Stmt 
            |    "if" "(" Expr ")" Stmt "else" Stmt  | "if" "(" Expr ")" Stmt
 
     Expr ::= INT | CHAR | BOOL | "(" Expr ")" | "&" LValue | LValue "=" Expr | "!" Expr 
