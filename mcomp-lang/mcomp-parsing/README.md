@@ -77,7 +77,8 @@ As usual in EBNF notation, the operator `*` means zero or more occurrences, `+` 
     BasicType ::= "int" | "char" | "void" | "bool"  
     
     Stmt ::= "return" Expr? ";" | Expr ";" | Block | "while" "(" Expr ")" Stmt 
-           |    "if" "(" Expr ")" Stmt "else" Stmt  | "if" "(" Expr ")" Stmt
+           | "if" "(" Expr ")" Stmt "else" Stmt  | "if" "(" Expr ")" Stmt
+           | "for" "(" Expr? ";" Expr? ";" Expr? ")" Stmt
 
     Expr ::= INT | CHAR | BOOL | "(" Expr ")" | "&" LValue | LValue "=" Expr | "!" Expr 
            | ID "(" ((Expr ",")* Expr)? ")" | LValue | "-" Expr | Expr BinOp Expr  
