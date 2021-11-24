@@ -1,0 +1,13 @@
+(test
+  (name parser_test)
+  (libraries mcomp_lang)
+  (modules parser_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))
+
+(test
+  (name semant_test)
+  (libraries mcomp_lang)
+  (modules semant_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))  
