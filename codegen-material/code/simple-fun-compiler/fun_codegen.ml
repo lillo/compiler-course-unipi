@@ -88,9 +88,9 @@ let codegen_fundecl llmodule env (Fundecl {fname; ftype; fparam; fbody}) =
   let fun_type = lltype_of_type ftype in 
   let fundef = L.define_function fname fun_type llmodule in
   let param = L.param fundef 0 in  
-  let env' = (fname,fundef)::(fparam,param)::env in 
+  let env' = (fname,fundef)::env in 
   let ibuilder = L.builder_at_end llcontext (L.entry_block fundef) in
-  let last_instr = codegen_expr fundef env' ibuilder fbody in 
+  let last_instr = codegen_expr fundef ((fparam,param)::env') ibuilder fbody in 
   let _ = L.build_ret last_instr ibuilder in 
   env' 
 
