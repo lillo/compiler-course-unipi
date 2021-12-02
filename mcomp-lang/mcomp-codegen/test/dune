@@ -1,0 +1,28 @@
+(test
+  (name parser_test)
+  (libraries mcomp_lang)
+  (modules parser_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))
+
+(test
+  (name semant_test)
+  (libraries mcomp_lang)
+  (modules semant_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))  
+
+(test
+  (name linker_test)
+  (libraries mcomp_lang)
+  (modules linker_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))  
+
+(executable
+  (name codegen_test)
+  (public_name codegen_test)
+  (libraries mcomp_lang llvm)
+  (modules codegen_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))

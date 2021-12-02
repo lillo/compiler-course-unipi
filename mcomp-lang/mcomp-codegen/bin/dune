@@ -1,0 +1,4 @@
+(executable
+ (name mcompc)
+ (public_name mcompc)
+ (libraries mcomp-lang llvm llvm.bitwriter))

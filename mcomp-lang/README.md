@@ -36,7 +36,7 @@ The project is split in the following assignments:
 * **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for checking that a given program obeys the scoping rules and the type system of the language. The description of the semantic rules are [here](mcomp-semantic-analysis/README.md);
 
 * **Component linking and code generation**: this assignment asks first to link component together according to what specified by the programmer and to use the LLVM toolchain to translate a µcomp-lang program to low level code (LLVM bitcode). 
-The description of the linking rules are available here; 
+The description of the linking rules are available [here](mcomp-codegen/README.md); 
 
 * **Language extensions**: this assignment asks to extend the µcomp-lang language by considering further constructs. In particular, students are required to implement **at least two** of the following constructs: 
     * `do-while` loops;
