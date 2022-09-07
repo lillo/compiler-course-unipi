@@ -45,11 +45,11 @@ Given `d = [1;2;3]` and `n = 4` the result of `count_change d n` is `4`, because
 Write a function `count_sums` that, given two numbers `x` and `n`, returns the number of ways that `x` can be expressed as the sum of the `n` th power of unique natural numbers.
 For example, if `x = 100` and `n = 2` the result of `count_sums x n` is `3` because the ways in which `100` can be expressed as the sums of squares are
 
-![10^2](102.png)
+$$10^2$$
 
 
-![6^2 + 8^2](6282.png)
+$$6^2 + 8^2$$
 
 
-![1^2 + 3^2 + 4^2 + 5^2 + 7^2](13457.png)
+$$1^2 + 3^2 + 4^2 + 5^2 + 7^2$$
 
