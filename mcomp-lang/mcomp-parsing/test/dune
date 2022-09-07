@@ -1,6 +1,0 @@
-(test
-  (name parser_test)
-  (libraries mcomp_lang)
-  (modules parser_test)
-  (preprocess
-  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))

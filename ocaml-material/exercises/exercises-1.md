@@ -1,11 +1,11 @@
 # Exercises on OCaml Programming (Part 1)
 
 ## Exercise 1
-The *series expansion* of ![e^x](ex.png) is given by:
+The *series expansion* of $e^x$ is given by:
 
-![1 + x + x^2/2! + x^3/3! + x^4/4! + \dots](exp.jpg)
+$$1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \frac{x^4}{4!} + \dots$$
 
-Evaluate ![e^x](ex.png) for given values of **x** by using the above expansion for the first 10 terms.
+Evaluate $e^x$ for given values of **x** by using the above expansion for the first 10 terms.
 
 
 ## Exercise 2
