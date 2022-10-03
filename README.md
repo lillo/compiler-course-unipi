@@ -38,6 +38,7 @@ See [these instructions](instructions.md) to set up your programming environment
 
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
+| 03/10 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
 | ...   | ...    |  ...   | ...      | ...       | 
 
 
@@ -71,6 +72,7 @@ Programming assignments will use the following pieces of software:
 * [LLVM Language Reference Manual](http://llvm.org/docs/LangRef.html)
 * [LLVM OCaml Binding Documentation](https://llvm.moe/ocaml/)
 * [Kaleidoscope: Implementing a Language with LLVM in Objective Caml](https://llvm.org/docs/tutorial/)
+* [Mapping High Level Constructs to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/README.html)
 * [The Programming Languages Zoo - A potpourri of programming languages](http://plzoo.andrej.com/)
 * [Compiler Explorer](https://godbolt.org/)
 * [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
