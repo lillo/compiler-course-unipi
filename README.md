@@ -38,7 +38,7 @@ See [these instructions](instructions.md) to set up your programming environment
 
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
-| 03/10 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml)   | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
+| 03/10 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml) <br/> [OCaml Programming Problems](https://ocaml.org/problems)  | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
 | ...   | ...    |  ...   | ...      | ...       | 
 
 
