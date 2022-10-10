@@ -38,7 +38,8 @@ See [these instructions](instructions.md) to set up your programming environment
 
 | Date  | Topics | Slides | Examples | Assignments| 
 | ------|------- | -------|----------|------------|
-| 03/10 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml) <br/> [OCaml Programming Problems](https://ocaml.org/problems)  | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
+| 10/03 | Intro to OCaml  |  [Intro to the lab](ocaml-material/slides/lab-presentation.pdf)</br>[OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)</br>[OCaml Tools](ocaml-material/slides/ocaml-tools.pdf) | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml) <br/> [OCaml Programming Problems](https://ocaml.org/problems)  | [Exercises 1](ocaml-material/exercises/exercises-1.md)       |
+| 10/10 | Intro to OCaml: records, algebraic data types </br> module, imperative features  | [OCaml Tutorial](http://www.cs.columbia.edu/~sedwards/classes/2018/4115-fall/ocaml.pdf)    | [ocaml-basics.ml](ocaml-material/code/ocaml-basics.ml) </br> [vector.mli](ocaml-material/code/vector.mli)</br>[vector.ml](ocaml-material/code/vector.ml)     | [Exercises 2](ocaml-material/exercises/exercises-2.md)
 | ...   | ...    |  ...   | ...      | ...       | 
 
 
