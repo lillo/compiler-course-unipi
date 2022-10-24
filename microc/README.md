@@ -29,7 +29,7 @@ A description of the provided project kit is [here](SETUP.md).
 
 The project is split in the following assignments:
 
-* **Parsing**: this assignment asks students to implement a parser for MicroC. The material is available [here](microc-parsing/); 
+* **Parsing**: this assignment asks students to implement a parser for MicroC. The material is available [here](microc-parser/); 
 
 * **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for check that a given program obeys the scoping rule and the type system of the language. The material is available here;
 
