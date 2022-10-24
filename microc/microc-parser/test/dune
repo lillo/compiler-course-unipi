@@ -1,0 +1,8 @@
+(executable
+  (name parser_test)
+  (public_name parser_test)
+  (libraries microc)
+  (modules parser_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))
+   
