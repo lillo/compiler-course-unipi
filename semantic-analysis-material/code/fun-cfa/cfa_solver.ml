@@ -21,7 +21,7 @@ struct
 type t =
   | IsIn of Token.t * Var.t   (* IsIn(t,v) means {t} ⊆ v *)
   | SubSeteq of Var.t * Var.t (* Subseteq(v1, v2) means v1 ⊆ v2 *)
-  | Impl of Token.t * Var.t * Var.t * Var.t (* Impl(t, v, v1, v2) means {t} ⊆ v ==> v1 ⊆ v2 *)
+  | Impl of Token.t * Var.t * Var.t * Var.t (* Impl(t, v, v1, v2) means {t} ⊆ v ⟼ v1 ⊆ v2 *)
 [@@deriving show { with_path = false },ord]
 
 (** A pretty printer *)
@@ -32,7 +32,7 @@ let pp fmt v =
   | SubSeteq(v1, v2) ->
     Format.fprintf fmt "%s ⊆ %s" (Var.show v1) (Var.show v2)
   | Impl(t, v, v1, v2) ->
-    Format.fprintf fmt "%s ⊆ %s ==> %s ⊆ %s" (Token.show t) (Var.show v) (Var.show v1) (Var.show v2)
+    Format.fprintf fmt "%s ⊆ %s ⟼ %s ⊆ %s" (Token.show t) (Var.show v) (Var.show v1) (Var.show v2)
 
 (** A pretty printer *)
 let show v =
