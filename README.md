@@ -45,7 +45,8 @@ See [these instructions](instructions.md) to set up your programming environment
 | 10/31   | No Lecture    |  -   | -      | -      |
 | 11/07   |  - Type analysis | [Type analysis](semantic-analysis-material/slides/type-analysis.pdf) | [FUN type checker](semantic-analysis-material/code/fun-types) </br> [MinCaml](https://github.com/esumii/min-caml) </br> [Incremental MinCaml](https://github.com/matteobusi/incremental-mincaml) </br> [CADL](https://github.com/freek9807/CADL) </br> [Grow Your Own Type System](https://github.com/tomprimozic/type-systems) </br> [The PL Zoo](http://plzoo.andrej.com/) | [Exercises 6](semantic-analysis-material/exercises/exercises-types.md) |
 | 11/14   | -Discussion on previous assignments </br> - Control-flow analysis | [CFA analysis](semantic-analysis-material/slides/cfa-analysis.pdf) | [FUN CFA analysis](semantic-analysis-material/code/fun-cfa) </br> A [toy static analysis tool](https://github.com/Dissing/ProgramAnalysis) based on the monotone dataflow analysis framework </br> [VSA](https://github.com/marcoantoniocorallo/VSA ) a framework for Value-Set Analysis </br> [EthCA](https://github.com/Samuele0/contract_analyzer) Ethereum Concurrency Analyzer |  [Exercises 7](semantic-analysis-material/exercises/exercises-cfa.md) |
-| 11/21 | ... | ... | ... | ... |
+| 11/21 | - Control-flow analysis </br> - MicroC Semantic analysis  | [CFA analysis](semantic-analysis-material/slides/cfa-analysis.pdf) </br> [MicroC Semantic analysis](semantic-analysis/slides/microc-semantic-analysis.pdf)  | - | [MicroC semantic analysis](microc/microc-semantic-analysis/) |
+| ... | | ... | ... | ... | ... |
 
 ## Final project
 The final project of the course consists in implementing a compiler for MicroC. See [here](microc/) for the instructions.
