@@ -1,0 +1,23 @@
+(executable
+  (name parser_test)
+  (public_name parser_test)
+  (libraries microc)
+  (modules parser_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))
+
+(executable
+  (name semant_test)
+  (public_name semant_test)
+  (libraries microc)
+  (modules semant_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))  
+
+(executable
+  (name codegen_test)
+  (public_name codegen_test)
+  (libraries microc llvm)
+  (modules codegen_test)
+  (preprocess
+  (pps ppx_deriving.show ppx_deriving.ord ppx_deriving.eq)))    

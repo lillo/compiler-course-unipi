@@ -33,7 +33,7 @@ The project is split in the following assignments:
 
 * **Semantic analysis**: this assignment mainly concerns the implementation of a static analysis for check that a given program obeys the scoping rule and the type system of the language. The material is available [here](microc-semantic-analysis/);
 
-* **Code generation**: this assignment asks to use the LLVM toolchain to compile a MicroC program to low level code (LLVM bitcode) and to perform some simple optimizations. The material is available here; 
+* **Code generation**: this assignment asks to use the LLVM toolchain to compile a MicroC program to low level code (LLVM bitcode) and to perform some simple optimizations. The material is available [here](microc-codegen/); 
 
 * **Language extensions**: this assignment asks to extend the MicroC language by considering further constructs. In particular, students are required to implement **at least three** of the following items: 
     * pre/post increment/decrement operators, i.e., `++` and `--`, and  abbreviation for assignment operators, i.e., `+=`, `-=`, `*=`, `/=` and `%=`;
